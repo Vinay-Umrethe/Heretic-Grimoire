@@ -1,0 +1,10 @@
+__pycache__/
+.ruff_cache/
+.venv/
+data/
+*.pyc
+.env
+.json
+.csv
+.log
+.lock
