@@ -153,12 +153,12 @@ Heretic will guide you through the process, checking your environment against th
 > [!WARNING]
 > This automation via `--reproduce` feature does not not guarantee *Exact* reproduction for models created *before* `v1.4.0` (like for `v1.3.0`) and even the environment check will mark it as a critical mismatch.
 >
-> You can still continue the reproduction anyway (not recommended for **byte-for-byte** identical SHA256 hashes to match the original model weights). For exact reproduction of those old models having `"version": "1",` of `reproduce.json` files, see [How to reproduce section](https://huggingface.co/spaces/heretic-org/Heretic-Grimoire/blob/main/README.md#how-to-reproduce).
+> You can still continue the reproduction anyway (not recommended for **byte-for-byte** identical SHA256 hashes to match the original model weights). For exact reproduction of those old models having `"version": "1",` of `reproduce.json` files, see [How to reproduce section](https://github.com/Vinay-Umrethe/Heretic-Grimoire#how-to-reproduce).
 >
 > We highly recommend to use `--reproduce` feature for any models created *after* `v1.3.0` and have `"version": "2",` or later of their respective `reproduce.json` files.
 
 > [!TIP]
-> You can create your own local grimoire or deploy it on cloud easily, which updates daily. See [Deploy section](https://huggingface.co/spaces/heretic-org/Heretic-Grimoire/blob/main/README.md#deploy) for guidance.
+> You can create your own local grimoire or deploy it on cloud easily, which updates daily. See [Deploy section](https://github.com/Vinay-Umrethe/Heretic-Grimoire#deploy) for guidance.
 
 ---
 
