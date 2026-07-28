@@ -1895,6 +1895,8 @@ start_initial_collection_if_enabled()
 
 demo = build_gradio_app()
 
+# We do not use Server-Side-Rendering (SSR_MODE)
+# as it alters and affects the custom CSS UI on Hugging Face.
 if __name__ == "__main__":
     demo.queue(default_concurrency_limit=1).launch(
         theme=gr.themes.Base(),
