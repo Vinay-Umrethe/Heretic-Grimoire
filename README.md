@@ -74,7 +74,7 @@ You should have received a copy of the GNU Affero General Public License along w
 
 ---
 
-# Appendix
+## Appendix
 
 <div align="center"><img src="assets/Heretic-Reproducibility-System-Summary.png" alt="Reproducibility System Summary" width="50%" /></div>
 
